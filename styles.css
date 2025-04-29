@@ -1,0 +1,68 @@
+styles.css
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: hwb(177 84% 8%);
+  color: #91167f;
+}
+
+header {
+  background: #333;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  background: hsla(55, 27%, 44%, 0.486);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px hsla(60, 67%, 51%, 0.233);
+}
+
+h1, h2 {
+  color: hsl(191, 61%, 37%);
+  border-bottom: 2px solid hsl(257, 50%, 36%);
+  padding-bottom: 10px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #48ad1c;
+  color: #632a2a;
+}
